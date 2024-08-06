@@ -21,9 +21,9 @@ MCU + Wifi + Bluetooth + MTK3333 + BNO080 + RV3028 + SIM800L + SD Module in one 
 ## How To Use
 To use the Cerdas GPS Tracker, you need to program the board according to your requirements. We provide hardware test firmware that can be uploaded via the Arduino IDE to test all sensors and components. Before starting, ensure:
 
-1. **You have installed the necessary libraries.**
-2. **Adjust the upload settings in your Arduino IDE.**
-3. **The Cerdas GPS Tracker is in download mode.**
+1. You have installed the necessary libraries.
+2. Adjust the upload settings in your Arduino IDE.
+3. The Cerdas GPS Tracker is in download mode.
 
 #### Required Libraries:
 - [RV-3028_C7-Arduino_Library](https://github.com/constiko/RV-3028_C7-Arduino_Library) by Constantin Koch
@@ -45,25 +45,25 @@ To use the Cerdas GPS Tracker, you need to program the board according to your r
 
 ## Pins Configuration
 
-### GPIO Configuration
+#### GPIO Configuration
 - **GPIO13:** Enable power for GPS, RTC RV-3028, and BNO080  
   *Set GPIO13 to LOW to turn off GPS, RTC, and IMU.*
 
-### SD Module Pins
+#### SD Module Pins
 - **SCK:** GPIO7
 - **MISO:** GPIO6
 - **MOSI:** GPIO8
 - **CS:** GPIO5
 
-### I2C for RTC RV-3028 and BNO080
+#### I2C for RTC RV-3028 and BNO080
 - **SDA:** GPIO41
 - **SCL:** GPIO40
 
-### Serial Pins for GPS
+#### Serial Pins for GPS
 - **RX:** GPIO21
 - **TX:** GPIO17
 
-### Serial Pins for SIM800L
+#### Serial Pins for SIM800L
 - **RX:** GPIO2
 - **TX:** GPIO1
 
