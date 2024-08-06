@@ -68,7 +68,7 @@ To use the Cerdas GPS Tracker, you need to program the board according to your r
 - **TX:** GPIO1
 
 ## Notice
-To activate SIM800L, you must physically press the GSM power button a few seconds until the GSM Power LED is on. Currently, it cannot be activated through programming.
+To activate SIM800L, you must physically press the GSM power button a few seconds until the GSM Power LED is on. Currently, it cannot be activated through programming. Please connect LiPo battery to the board to ensure SIM800L have enough current.
 
 ## Development logs
 V1.0
